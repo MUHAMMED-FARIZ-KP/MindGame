@@ -108,7 +108,7 @@ function App() {
 
       {isGameCompleted && (
         <div className="game-completed">
-          <h1>YOU WIN!!!</h1>
+          <h1>YOU WIN...!!!</h1>
           <Confetti width={window.innerWidth} height={window.innerHeight} />
         </div>
       )}
